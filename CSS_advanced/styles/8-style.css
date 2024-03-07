@@ -34,6 +34,7 @@ body {
     font-weight: var(--font-weight-regular);
     min-height: var(--line-height-base);
 }
+
 .visually-hidden {
     display: none;
 }
