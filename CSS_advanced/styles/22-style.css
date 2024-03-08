@@ -98,13 +98,6 @@ a:active {
     margin-right: auto;
 }
 
-[section-theme="dark"] {
-    --text-color: var(--color-white);
-    --section-title-color: var(--color-white);
-    background-color: var(--color-black);
-
-}
-
 .section-title {
     font-family: var(--font-family-title);
     font-size: var(--font-size-xx-large);
@@ -202,4 +195,10 @@ ul.row {
 [class^="col-"] {
     float: left;
     padding: 0.5rem;
+}
+
+[data-section-theme="dark"] {
+    --text-color: var(--color-white);
+    --section-title-color: var(--color-white);
+    background-color: var(--color-black);
 }
