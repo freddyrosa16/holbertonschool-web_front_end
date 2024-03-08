@@ -78,7 +78,7 @@ a:active {
 }
 
 .container {
-    font-size: 960px;
+    width: 960px;
     margin-left: auto;
     margin-right: auto;
 }
