@@ -4,11 +4,9 @@
 }
 
 body {
-    margin-left: 10px;
-    margin-right: 10px;
+    @include margin-mixin(10px)
 }
 
 div {
-    margin-left: 15px;
-    margin-right: 15px;
+    @include margin-mixin(15px)
 }
