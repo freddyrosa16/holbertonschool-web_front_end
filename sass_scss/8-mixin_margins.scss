@@ -1,3 +1,8 @@
+@mixin margin-mixin($margin-size-pixels) {
+    margin-left: #{$margin-size-pixels};
+    margin-right: #{$margin-size-pixels};
+}
+
 body {
     margin-left: 10px;
     margin-right: 10px;
